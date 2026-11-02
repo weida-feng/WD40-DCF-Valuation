@@ -11,9 +11,9 @@
 
 WD-40's FY2025 reported earnings grew faster than its cash generation. Net income increased **30.7%**, while cash from operations declined **4.5%**. A one-off tax benefit and changes in operating assets and liabilities help explain this divergence. Understanding those drivers is the starting point for the valuation, rather than extrapolating reported net income directly into future cash flow.
 
-The five-year FCFF model produces a base equity value of **$121.50 per share**, using an **8.13% WACC**, **2.5% terminal growth**, and annual year-end discount periods of one to five years. Terminal value contributes **78.1%** of enterprise value. The result is therefore highly dependent on assumptions beyond the explicit forecast period.
+The five-year FCFF model produces a base equity value of **\$121.50 per share**, using an **8.13% WACC**, **2.5% terminal growth**, and annual year-end discount periods of one to five years. Terminal value contributes **78.1%** of enterprise value. The result is therefore highly dependent on assumptions beyond the explicit forecast period.
 
-The modeled value is **37.8% below** the historical reference close of **$195.38** on 27 October 2025. That difference identifies a gap between the model's assumptions and the reference market valuation; it does not by itself establish mispricing. The reference close also predates the after-close 10-K filing used in this study. [S2], [S4]
+The modeled value is **37.8% below** the historical reference close of **\$195.38** on 27 October 2025. That difference identifies a gap between the model's assumptions and the reference market valuation; it does not by itself establish mispricing. The reference close also predates the after-close 10-K filing used in this study. [S2], [S4]
 
 ## 1. Scope and information set
 
@@ -30,7 +30,7 @@ The financial model starts from FY2025 disclosures. FY2026 actual results are no
 | Historical-source cutoff for model inputs | FY2025 10-K accepted on 27 October 2025 at 16:12:49 |
 | Cash and debt | 31 August 2025 reported balances, retained as valuation-date proxies |
 | Shares | 13.527835m as of 21 October 2025, rounded to 13.528m |
-| Reference share price | 27 October 2025 regular-session close of $195.38 |
+| Reference share price | 27 October 2025 regular-session close of \$195.38 |
 | Main discount convention | Complete annual periods of 1–5 years |
 
 The filing was accepted after the regular trading session. This is a historical filing-date study with explicit timing simplifications, rather than an intraday trading backtest. [S1], [S2], [S4]
@@ -52,7 +52,7 @@ The filing was accepted after the regular trading session. This is a historical 
 
 *Source: reported figures in the FY2025 10-K; margins and CFO less PP&E purchases are calculated in the workbook. [S1]*
 
-FY2025 net income includes a **$11.929m favorable tax release**. The cash-flow statement reverses that benefit when reconciling net income to operating cash flow. For forecasting, the model therefore uses a **23.9% normalized tax assumption**, approximately the FY2024 effective rate, rather than extrapolating FY2025's roughly 10.5% reported tax rate. [S1]
+FY2025 net income includes a **\$11.929m favorable tax release**. The cash-flow statement reverses that benefit when reconciling net income to operating cash flow. For forecasting, the model therefore uses a **23.9% normalized tax assumption**, approximately the FY2024 effective rate, rather than extrapolating FY2025's roughly 10.5% reported tax rate. [S1]
 
 The cash-flow reconciliation makes the main drivers visible:
 
@@ -63,7 +63,7 @@ The cash-flow reconciliation makes the main drivers visible:
 | Operating asset / liability cash adjustments | 4.625 | (10.507) | (15.132) |
 | Cash from operations | 92.034 | 87.925 | (4.109) |
 
-Although net income rose by **$21.350m**, the combined deterioration in noncash adjustments and operating asset / liability cash adjustments more than offset that increase. The tax release explains part of the noncash comparison; inventory and other-asset cash outflows also contributed to weaker cash generation. [S1]
+Although net income rose by **\$21.350m**, the combined deterioration in noncash adjustments and operating asset / liability cash adjustments more than offset that increase. The tax release explains part of the noncash comparison; inventory and other-asset cash outflows also contributed to weaker cash generation. [S1]
 
 **CFO less PP&E purchases is a useful cash-generation measure, but it is not the unlevered FCFF used in the DCF.** The forecast is built from EBIT, normalized operating taxes, capital investment and operating NWC instead.
 
@@ -84,9 +84,9 @@ The model estimates operating NWC as receivables, inventory and adjusted other c
 | Operating NWC | 117.249 | 116.318 |
 | Operating NWC / revenue | 19.9% | 18.8% |
 
-The estimated balance decreased by **$0.931m**. This balance-sheet change is distinct from the cash-flow statement's operating asset / liability adjustments: exchange-rate movements, asset reclassifications and other noncash effects can make the two differ. Tax receivables used in this estimate are approximate disclosures. [S1]
+The estimated balance decreased by **\$0.931m**. This balance-sheet change is distinct from the cash-flow statement's operating asset / liability adjustments: exchange-rate movements, asset reclassifications and other noncash effects can make the two differ. Tax receivables used in this estimate are approximate disclosures. [S1]
 
-The DCF retains **$116.318m as opening FY2026 NWC**. Applying the forecast 18.8% ratio retroactively to FY2025 revenue would change that opening balance and the first forecast year's FCFF. The workbook preserves the historical estimate and applies the forecast ratio prospectively.
+The DCF retains **\$116.318m as opening FY2026 NWC**. Applying the forecast 18.8% ratio retroactively to FY2025 revenue would change that opening balance and the first forecast year's FCFF. The workbook preserves the historical estimate and applies the forecast ratio prospectively.
 
 ## 3. Forecast assumptions and rationale
 
@@ -101,7 +101,7 @@ These are analyst assumptions, not company guidance.
 | PP&E investment / revenue | 0.8% | Moderate physical investment for an outsourced production model. |
 | Other capitalized investment / revenue | 0.4% | A normalized cloud / systems estimate, not a disclosed historical spending ratio. |
 | Total capital investment / revenue | 1.2% | PP&E investment plus other capitalized investment, separate from NWC. |
-| Closing operating NWC / revenue | 18.8% | Approximate recent operating-capital intensity; opening NWC remains $116.318m. |
+| Closing operating NWC / revenue | 18.8% | Approximate recent operating-capital intensity; opening NWC remains \$116.318m. |
 | Terminal growth | 2.5% | A provisional moderate nominal USD perpetuity assumption. |
 
 The FY2025 disclosures record a completed UK cleaning-business sale and an Americas disposal plan. Their associated FY2025 sales represented approximately **1.0%** and **2.2%** of group revenue, respectively. That scale supports treating divestitures as a secondary forecast consideration. The **5.0% / 5.5% path represents modeled consolidated revenue growth**; divested sales are not deducted separately. This basis differs from the company's divestiture-adjusted pro forma guidance. [S1], [S5]
@@ -112,9 +112,9 @@ Capital investment of 1.2% is **not solely PP&E capex**. The additional 0.4% cap
 
 The operating model uses:
 
-$$
+```math
 FCFF_t = EBIT_t(1-T_t) + D\&A_t - \text{Capital investment}_t - \Delta ONWC_t
-$$
+```
 
 | USD millions, except rates | FY2026E | FY2027E | FY2028E | FY2029E | FY2030E |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -131,7 +131,7 @@ $$
 
 *Parentheses indicate cash outflows. Figures are calculated using unrounded inputs and displayed to three decimals.*
 
-For FY2026, closing NWC is **$122.385m**, compared with opening NWC of **$116.318m**. The **$6.067m** incremental investment reduces FCFF to **$80.259m**, despite higher operating profit. This illustrates why cash available to capital providers should be forecast separately from earnings growth.
+For FY2026, closing NWC is **\$122.385m**, compared with opening NWC of **\$116.318m**. The **\$6.067m** incremental investment reduces FCFF to **\$80.259m**, despite higher operating profit. This illustrates why cash available to capital providers should be forecast separately from earnings growth.
 
 Financing debt and operating liabilities are treated separately. Payables already influence NWC and are not deducted again as financing debt in the enterprise-to-equity bridge.
 
@@ -139,13 +139,13 @@ Financing debt and operating liabilities are treated separately. Payables alread
 
 The reference calculation uses CAPM and market-value capital weights:
 
-$$
+```math
 R_e = R_f + \beta ERP
-$$
+```
 
-$$
+```math
 WACC = w_e R_e + w_d R_d(1-T)
-$$
+```
 
 | Parameter | Value | Basis |
 | --- | ---: | --- |
@@ -155,8 +155,8 @@ $$
 | Cost of equity | 8.26% | CAPM calculation. |
 | Pretax cost of debt | 5.00% | Estimated marginal borrowing cost, not a historical coupon average. |
 | Tax rate | 23.90% | Normalized modeling assumption. |
-| Equity market value | $2,643.101m | Reference close × rounded shares. |
-| Debt market value | $82.200m | Rounded FY2025 fair-value estimate. [S1] |
+| Equity market value | \$2,643.101m | Reference close × rounded shares. |
+| Debt market value | \$82.200m | Rounded FY2025 fair-value estimate. [S1] |
 | Equity / debt weights | 96.98% / 3.02% | Market-value weights. |
 | Component-derived WACC | 8.1256% | Unrounded reference calculation. |
 | **Active DCF WACC** | **8.13%** | Adopted rounded base input. |
@@ -169,13 +169,13 @@ The next empirical improvement is to estimate beta using returns available throu
 
 The base model discounts FY2026–FY2030 FCFF at annual year-end periods and uses Gordon growth for the terminal value:
 
-$$
+```math
 TV_{2030}=\frac{FCFF_{2030}(1+g)}{WACC-g}
-$$
+```
 
-$$
+```math
 EV=\sum_{t=1}^{5}\frac{FCFF_t}{(1+WACC)^t}+\frac{TV_{2030}}{(1+WACC)^5}
-$$
+```
 
 | Base valuation | USD millions, except per share |
 | --- | ---: |
@@ -187,16 +187,16 @@ $$
 | Less: debt market value | (82.200) |
 | Equity value | 1,643.654 |
 | Shares outstanding (millions) | 13.528 |
-| **Equity value per share** | **$121.50** |
+| **Equity value per share** | **\$121.50** |
 
-Debt is estimated from **$61.2m** of senior-note fair value plus **$20.995m** of revolver borrowings, rounded to **$82.2m**. Cash and debt retain their FY2025 balance dates. The bridge uses 13.528m shares, rounding the 21 October count, rather than diluted weighted-average shares used for EPS. [S1]
+Debt is estimated from **\$61.2m** of senior-note fair value plus **\$20.995m** of revolver borrowings, rounded to **\$82.2m**. Cash and debt retain their FY2025 balance dates. The bridge uses 13.528m shares, rounding the 21 October count, rather than diluted weighted-average shares used for EPS. [S1]
 
 ### Discount-timing comparison
 
 | Convention | FY2026 discount period | Equity value per share |
 | --- | ---: | ---: |
-| Annual base | 1.0000 years | **$121.50** |
-| Actual/365 timing comparison | 308 / 365 = 0.8438 years | **$122.99** |
+| Annual base | 1.0000 years | **\$121.50** |
+| Actual/365 timing comparison | 308 / 365 = 0.8438 years | **\$122.99** |
 
 The second calculation discounts to the stated 27 October date using actual day counts. It changes **timing only**: complete fiscal-year FCFF and the same balance-sheet proxies are retained. It does not remove cash flows attributable to the elapsed part of FY2026 or construct an interim balance sheet. It is therefore a timing comparison, not a fully rolled-forward valuation.
 
@@ -208,13 +208,13 @@ The following excerpt comes from the workbook's native two-variable Data Table. 
 
 | WACC / terminal g | 1.50% | 2.00% | 2.50% | 3.00% | 3.50% |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 7.13% | $125.86 | $136.13 | $148.63 | $164.16 | $183.96 |
-| 7.63% | $115.21 | $123.65 | $133.74 | $146.01 | $161.25 |
-| 8.13% | $106.17 | $113.21 | **$121.50** | $131.40 | $143.45 |
-| 8.63% | $98.41 | $104.35 | $111.26 | $119.40 | $129.12 |
-| 9.13% | $91.67 | $96.73 | $102.57 | $109.35 | $117.34 |
+| 7.13% | \$125.86 | \$136.13 | \$148.63 | \$164.16 | \$183.96 |
+| 7.63% | \$115.21 | \$123.65 | \$133.74 | \$146.01 | \$161.25 |
+| 8.13% | \$106.17 | \$113.21 | **\$121.50** | \$131.40 | \$143.45 |
+| 8.63% | \$98.41 | \$104.35 | \$111.26 | \$119.40 | \$129.12 |
+| 9.13% | \$91.67 | \$96.73 | \$102.57 | \$109.35 | \$117.34 |
 
-Holding terminal growth at 2.5%, changing WACC from **7.13% to 9.13%** moves value from **$148.63 to $102.57**. The approximately **78.1%** terminal-value share of EV makes capital-cost and long-run growth assumptions central to the result.
+Holding terminal growth at 2.5%, changing WACC from **7.13% to 9.13%** moves value from **\$148.63 to \$102.57**. The approximately **78.1%** terminal-value share of EV makes capital-cost and long-run growth assumptions central to the result.
 
 ### Revenue growth × EBIT margin
 
@@ -222,19 +222,19 @@ Rows apply parallel percentage-point shifts to every forecast revenue-growth ass
 
 | Revenue-growth shift / EBIT-margin shift | -1.0 pp | -0.5 pp | 0.0 pp | +0.5 pp | +1.0 pp |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| -1.0 pp | $110.91 | $114.36 | $117.81 | $121.26 | $124.70 |
-| -0.5 pp | $112.60 | $116.12 | $119.64 | $123.17 | $126.69 |
-| 0.0 pp | $114.30 | $117.90 | **$121.50** | $125.10 | $128.70 |
-| +0.5 pp | $116.02 | $119.70 | $123.38 | $127.06 | $130.73 |
-| +1.0 pp | $117.76 | $121.52 | $125.28 | $129.03 | $132.79 |
+| -1.0 pp | \$110.91 | \$114.36 | \$117.81 | \$121.26 | \$124.70 |
+| -0.5 pp | \$112.60 | \$116.12 | \$119.64 | \$123.17 | \$126.69 |
+| 0.0 pp | \$114.30 | \$117.90 | **\$121.50** | \$125.10 | \$128.70 |
+| +0.5 pp | \$116.02 | \$119.70 | \$123.38 | \$127.06 | \$130.73 |
+| +1.0 pp | \$117.76 | \$121.52 | \$125.28 | \$129.03 | \$132.79 |
 
-For example, a +1.0 pp revenue-growth shift changes FY2026 growth from 5.0% to 6.0% and later growth from 5.5% to 6.5%. A +1.0 pp margin shift raises the FY2030 EBIT margin from 18.0% to 19.0%. Together, these changes produce **$132.79 per share**.
+For example, a +1.0 pp revenue-growth shift changes FY2026 growth from 5.0% to 6.0% and later growth from 5.5% to 6.5%. A +1.0 pp margin shift raises the FY2030 EBIT margin from 18.0% to 19.0%. Together, these changes produce **\$132.79 per share**.
 
 Within this operating test range, value remains below the reference close. A higher market valuation could reflect stronger operating expectations, different reinvestment economics, lower required returns or a combination of these. The selected grids describe assumption sensitivity, not probabilities assigned to future prices.
 
 ### Market-implied expectations and reverse DCF
 
-The $195.38 reference price corresponds to equity value of **$2,643.101m** and required enterprise value of **$2,667.171m** using the same shares, cash and market debt. Reversing the annual-base DCF shows how much a selected input must change to reproduce that price:
+The \$195.38 reference price corresponds to equity value of **\$2,643.101m** and required enterprise value of **\$2,667.171m** using the same shares, cash and market debt. Reversing the annual-base DCF shows how much a selected input must change to reproduce that price:
 
 | Conditional experiment | Adopted base | Price-matching input | Assumptions held fixed |
 | --- | --- | --- | --- |
@@ -247,7 +247,7 @@ These are separate conditional matches; the beta row translates the solved WACC 
 
 The capital-cost result supports making beta estimation the next research priority. The operating and terminal-growth alternatives require materially stronger assumptions and do not resolve the model's terminal-reinvestment limitation. Solving the price equation establishes numerical consistency, not economic plausibility or market mispricing.
 
-The [reverse DCF comparison](REVERSE_DCF.md) explains the equations, beta scenarios and interpretation. The **Reverse DCF** worksheet links to the active forecast and shows a 36-step WACC bisection trail. It preserves full precision: entering exactly 6.05% yields about $195.13, while the unrounded root reproduces $195.38. The adopted 8.13% base case is unchanged.
+The [reverse DCF comparison](REVERSE_DCF.md) explains the equations, beta scenarios and interpretation. The **Reverse DCF** worksheet links to the active forecast and shows a 36-step WACC bisection trail. It preserves full precision: entering exactly 6.05% yields about \$195.13, while the unrounded root reproduces \$195.38. The adopted 8.13% base case is unchanged.
 
 ## 8. Material limitations
 

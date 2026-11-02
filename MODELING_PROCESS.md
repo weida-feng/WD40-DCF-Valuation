@@ -50,9 +50,9 @@ Cash and debt use August 2025 balances as proxies, while the rounded share count
 
 An early calculation used selected current assets divided by short-term borrowings. That omitted receivables and other current assets from the numerator, and operating liabilities from the denominator. The complete current ratio is:
 
-$$
+```math
 Current\ ratio = \frac{Total\ current\ assets}{Total\ current\ liabilities}
-$$
+```
 
 | Calculation | FY2024 | FY2025 |
 | --- | ---: | ---: |
@@ -64,19 +64,19 @@ The corrected result indicates improved balance-sheet liquidity coverage. It doe
 
 For the enterprise-to-equity bridge, the relevant category is financing debt. FY2025 book net debt is:
 
-$$
+```math
 Book\ net\ debt = 0.800 + 86.195 - 58.130 = 28.865
-$$
+```
 
 Accounts payable and operating accruals are not added to that debt total: they already affect forecast working capital. The valuation later uses a **market-value debt estimate**, producing a different net-debt figure:
 
-$$
+```math
 Market\ net\ debt = 82.200 - 58.130 = 24.070
-$$
+```
 
 The book measure describes reported leverage; the market estimate is the adopted valuation bridge. [S1]
 
-A useful sign check is to hold everything else constant and increase accounts payable by $10m. Operating NWC falls by $10m and current-period FCFF rises by $10m. Deducting the same payable again as financing debt would double count it. This is a timing benefit from supplier credit, not a permanent source of free cash.
+A useful sign check is to hold everything else constant and increase accounts payable by \$10m. Operating NWC falls by \$10m and current-period FCFF rises by \$10m. Deducting the same payable again as financing debt would double count it. This is a timing benefit from supplier credit, not a permanent source of free cash.
 
 **Model consequence:** classify each item by economic function before using its accounting label in a formula.
 
@@ -92,31 +92,31 @@ The forecast uses a **23.9% normalized tax assumption**, approximately the FY202
 
 ### Step 2: build the complete CFO bridge
 
-$$
+```math
 CFO_{2024} = 69.644 + 17.765 + 4.625 = 92.034
-$$
+```
 
-$$
+```math
 CFO_{2025} = 90.994 + 7.438 - 10.507 = 87.925
-$$
+```
 
 The year-on-year change therefore reconciles as:
 
-$$
+```math
 \Delta CFO = 21.350 - 10.327 - 15.132 = -4.109
-$$
+```
 
 The increase in earnings was outweighed by lower noncash adjustments and weaker operating asset/liability cash adjustments. Inventory and other-asset outflows warrant investigation, but their presence alone does not establish weak demand or permanently impaired economics. Changes may reflect inventory policy, growth investment, payment timing or noncash effects. [S1]
 
 ### Step 3: calculate a cash-generation measure without calling it FCFF
 
-$$
+```math
 CFO\ less\ PP\&E_{2024} = 92.034 - 4.206 = 87.828
-$$
+```
 
-$$
+```math
 CFO\ less\ PP\&E_{2025} = 87.925 - 4.528 = 83.397
-$$
+```
 
 That measure fell by about **5.0%**. It is useful for historical analysis, but it retains reported CFO's tax, financing and noncash-adjustment conventions. It is not the EBIT-based unlevered cash flow forecast used below.
 
@@ -126,9 +126,9 @@ That measure fell by about **5.0%**. It is useful for historical analysis, but i
 
 The first operating-capital approximation was:
 
-$$
+```math
 ONWC_{core}=Receivables+Inventory-Payables
-$$
+```
 
 This gives **160.621 in FY2024** and **162.505 in FY2025**, an increase of **1.884**. It is easy to understand but excludes payroll, operating accruals and other current assets.
 
@@ -152,17 +152,17 @@ The expanded estimate classifies the additional items:
 
 The table contains intermediate subtotals and is not intended to be summed vertically. The final calculations are:
 
-$$
+```math
 ONWC_{2024}=117.493+79.088+11.661-35.960-28.978-26.055=117.249
-$$
+```
 
-$$
+```math
 ONWC_{2025}=120.589+79.871+14.176-37.955-31.948-28.415=116.318
-$$
+```
 
-$$
+```math
 \Delta ONWC_{2025}=116.318-117.249=-0.931
-$$
+```
 
 These are analyst estimates constructed from reported balances and approximate tax details. The **0.931 balance decrease is not a separately verified cash release**. FX, reclassifications and other noncash effects prevent a simple balance-sheet difference from necessarily matching the cash-flow statement. Operating leases remain in operating expenses; their liabilities are not also deducted as financing debt. [S1]
 
@@ -187,13 +187,13 @@ The key judgment changed after quantifying scale: a relatively small, potentiall
 
 The adopted path became **5.0% in FY2026 and 5.5% in FY2027–FY2030**:
 
-$$
+```math
 Revenue_{2026}=619.985(1.05)=650.984250
-$$
+```
 
-$$
+```math
 Revenue_{2027}=650.984250(1.055)=686.788384
-$$
+```
 
 The same recurrence produces FY2030 revenue of **806.455336**. The path is an analyst scenario for consolidated revenue. It does not separately subtract divested sales, and it differs from management's divestiture-adjusted pro forma guidance. [S5]
 
@@ -216,9 +216,9 @@ That reasoning supports **moderate operating leverage**: expenses can keep growi
 
 A conditional reasonableness check holds gross margin near 55.1%:
 
-$$
+```math
 Operating\ expense\ ratio_{2030}\approx55.1\%-18.0\%=37.1\%
-$$
+```
 
 This implies a roughly 1.2 percentage-point reduction from FY2025's approximately 38.3%, without requiring operating expenses to stop growing. It is a cross-check, not a separately forecast gross-margin schedule.
 
@@ -249,35 +249,35 @@ Three historical estimates helped expose differences in tax, noncash-adjustment 
 
 The CFO route begins with the common approximation:
 
-$$
+```math
 FCFF \approx CFO + I(1-T) - Capital\ investment
-$$
+```
 
 The after-tax add-back removes the effect of financing on operating cash flow. In a simplified setting with fully deductible interest, matched tax/cash timing and no nonoperating income:
 
-$$
+```math
 NI=(EBIT-I)(1-T)=EBIT(1-T)-I(1-T)
-$$
+```
 
 Adding back interest requires removing the associated tax saving too, so the net adjustment is **I − IT = I(1 − T)**. With interest of 3.441 and tax of 23.9%, the assumed shield is **0.822399** and the after-tax add-back is **2.618601**. Adding the full 3.441 would leave the financing tax benefit inside the cash flow. The standard WACC framework separately reflects that benefit through after-tax debt cost.
 
 For FY2025, the initial CFO proxy uses **interest expense of 3.441**, not cash interest paid:
 
-$$
+```math
 87.925+3.441(1-0.239)-4.528=86.015601
-$$
+```
 
 The EBIT route normalizes operating tax directly:
 
-$$
+```math
 103.793(1-0.239)+9.879-4.528-1.884=82.453473
-$$
+```
 
 Replacing the core three-item NWC increase of 1.884 with the expanded estimate's balance decrease of 0.931 gives:
 
-$$
+```math
 103.793(1-0.239)+9.879-4.528-(-0.931)=85.268473
-$$
+```
 
 | FY2025 historical estimate | USD millions | Main convention |
 | --- | ---: | --- |
@@ -327,9 +327,9 @@ The same forecast rules produce FCFF of **85.911, 92.290, 99.111 and 105.790** i
 
 One reconciliation exposed an important implementation choice. Applying 18.8% retroactively to FY2025 revenue gives:
 
-$$
+```math
 619.985\times18.8\%=116.557180
-$$
+```
 
 This is **0.239180 higher** than the adjusted historical estimate of 116.318. Using it as opening NWC would reduce FY2026 incremental NWC by the same amount and raise FCFF to **80.498511**. The discrepancy comes from changing the opening-balance assumption, not from an error in the FCFF arithmetic.
 
@@ -339,23 +339,23 @@ This is **0.239180 higher** than the adjusted historical estimate of 116.318. Us
 
 The starting framework is CAPM with market-value weights:
 
-$$
+```math
 R_e=R_f+\beta ERP=4.01\%+0.85(5.00\%)=8.26\%
-$$
+```
 
 The Treasury observation belongs to 27 October 2025. Beta 0.85, ERP 5.00% and pretax debt cost 5.00% are scenario assumptions; beta was not estimated by regression. [S3]
 
 Market equity is:
 
-$$
+```math
 E=195.38\times13.528=2,643.100640
-$$
+```
 
 The market-debt estimate is **61.200 of senior-note fair value + 20.995 of revolver borrowings = 82.195**, rounded to **82.200**. This yields approximately **96.98% equity** and **3.02% debt**. The debt balances retain their FY2025 dates. [S1], [S4]
 
-$$
+```math
 WACC=\frac{E}{E+D}(8.26\%)+\frac{D}{E+D}(5.00\%)(1-23.9\%)=8.125629\%
-$$
+```
 
 The active rounded assumption is **8.13%**. In the workbook, the component reference build explains that figure, while **Sensitivity Analysis!F6** remains the adopted editable input. Changing a reference component requires explicitly updating the adopted WACC if that change is intended to affect valuation.
 
@@ -365,9 +365,9 @@ The active rounded assumption is **8.13%**. In the workbook, the component refer
 
 The annual base discounts the five forecast cash flows over periods **1–5**. With terminal growth of **2.5%**:
 
-$$
+```math
 TV_{2030}=\frac{105.790047(1.025)}{0.0813-0.025}\approx1,926.018
-$$
+```
 
 The displayed FCFF in this formula is rounded; the workbook uses its unrounded value.
 
@@ -379,16 +379,16 @@ The displayed FCFF in this formula is rounded; the workbook uses its unrounded v
 | Add cash, less market debt | 58.130 − 82.200 |
 | Equity value | 1,643.654 |
 | Divide by shares | 13.528 |
-| **Value per share** | **$121.50** |
+| **Value per share** | **\$121.50** |
 
-The historical valuation date and the annual discount convention are separate choices. A timing-only Actual/365 calculation uses **308 / 365 = 0.8438 years** to FY2026 year-end and produces **$122.99** per share. It retains full fiscal-year FCFF and historical cash/debt proxies, so it does not represent a complete interim roll-forward.
+The historical valuation date and the annual discount convention are separate choices. A timing-only Actual/365 calculation uses **308 / 365 = 0.8438 years** to FY2026 year-end and produces **\$122.99** per share. It retains full fiscal-year FCFF and historical cash/debt proxies, so it does not represent a complete interim roll-forward.
 
 The terminal value accounts for **78.1% of EV**, making terminal assumptions material. The sensitivity exercises answer two different questions:
 
 | Test | Example result | Interpretation |
 | --- | --- | --- |
-| WACC × terminal growth | At g = 2.5%, WACC of 7.13% / 8.13% / 9.13% gives $148.63 / $121.50 / $102.57. | Required returns materially affect value. |
-| Revenue growth × EBIT margin | Adding 1.0 percentage point to every forecast growth rate and margin gives $132.79. | Test a coherent operating change through the full model. |
+| WACC × terminal growth | At g = 2.5%, WACC of 7.13% / 8.13% / 9.13% gives \$148.63 / \$121.50 / \$102.57. | Required returns materially affect value. |
+| Revenue growth × EBIT margin | Adding 1.0 percentage point to every forecast growth rate and margin gives \$132.79. | Test a coherent operating change through the full model. |
 
 The operating grid applies **percentage-point shifts to all five years**, not an absolute growth rate or a change only to the terminal-year margin. These are scenario results, not probabilities or predictions of future share prices.
 
